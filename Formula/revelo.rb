@@ -1,8 +1,8 @@
 class Revelo < Formula
   desc "Read technical metadata from any media file, in pure Rust"
   homepage "https://github.com/vbasky/revelo"
-  url "https://github.com/vbasky/revelo/archive/refs/tags/v0.4.2.tar.gz"
-  sha256 "ca03deaf73825999309b73509339f1fa908ceeeb614ea020ef9015ad81d8a601"
+  url "https://github.com/vbasky/revelo/archive/refs/tags/v0.4.3.tar.gz"
+  sha256 "b34f1bc9701d0bb198c73afa1ba37328afed1c70e95910e7ca256b981a3e2a8a"
   license "BSD-2-Clause"
 
   depends_on "rust" => :build
