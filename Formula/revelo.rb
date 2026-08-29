@@ -14,6 +14,6 @@ class Revelo < Formula
 
   test do
     assert_match version.to_s,
-      shell_output("\#{bin}/revelo --version")
+      shell_output("#{bin}/revelo --version")
   end
 end
